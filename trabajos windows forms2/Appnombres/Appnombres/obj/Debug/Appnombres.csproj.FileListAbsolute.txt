@@ -1,0 +1,8 @@
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appnombres\Appnombres\bin\Debug\Appnombres.exe.config
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appnombres\Appnombres\obj\Debug\Appnombres.Form1.resources
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appnombres\Appnombres\obj\Debug\Appnombres.Properties.Resources.resources
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appnombres\Appnombres\obj\Debug\Appnombres.csproj.GenerateResource.Cache
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appnombres\Appnombres\bin\Debug\Appnombres.exe
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appnombres\Appnombres\bin\Debug\Appnombres.pdb
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appnombres\Appnombres\obj\Debug\Appnombres.exe
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appnombres\Appnombres\obj\Debug\Appnombres.pdb

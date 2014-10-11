@@ -1,0 +1,9 @@
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appcheckbox\Appcheckbox\bin\Debug\Appcheckbox.exe.config
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appcheckbox\Appcheckbox\bin\Debug\Appcheckbox.exe
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appcheckbox\Appcheckbox\bin\Debug\Appcheckbox.pdb
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appcheckbox\Appcheckbox\obj\Debug\Appcheckbox.csprojResolveAssemblyReference.cache
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appcheckbox\Appcheckbox\obj\Debug\Appcheckbox.Form1.resources
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appcheckbox\Appcheckbox\obj\Debug\Appcheckbox.Properties.Resources.resources
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appcheckbox\Appcheckbox\obj\Debug\Appcheckbox.csproj.GenerateResource.Cache
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appcheckbox\Appcheckbox\obj\Debug\Appcheckbox.exe
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appcheckbox\Appcheckbox\obj\Debug\Appcheckbox.pdb

@@ -1,0 +1,6 @@
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appdowhile\Appdowhile\bin\Debug\Appdowhile.exe.config
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appdowhile\Appdowhile\bin\Debug\Appdowhile.exe
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appdowhile\Appdowhile\bin\Debug\Appdowhile.pdb
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appdowhile\Appdowhile\obj\Debug\Appdowhile.csprojResolveAssemblyReference.cache
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appdowhile\Appdowhile\obj\Debug\Appdowhile.exe
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appdowhile\Appdowhile\obj\Debug\Appdowhile.pdb

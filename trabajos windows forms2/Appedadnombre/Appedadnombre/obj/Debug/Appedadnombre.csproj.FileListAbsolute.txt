@@ -1,0 +1,8 @@
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appedadnombre\Appedadnombre\bin\Debug\Appedadnombre.exe.config
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appedadnombre\Appedadnombre\bin\Debug\Appedadnombre.exe
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appedadnombre\Appedadnombre\bin\Debug\Appedadnombre.pdb
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appedadnombre\Appedadnombre\obj\Debug\Appedadnombre.Form1.resources
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appedadnombre\Appedadnombre\obj\Debug\Appedadnombre.Properties.Resources.resources
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appedadnombre\Appedadnombre\obj\Debug\Appedadnombre.csproj.GenerateResource.Cache
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appedadnombre\Appedadnombre\obj\Debug\Appedadnombre.exe
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Appedadnombre\Appedadnombre\obj\Debug\Appedadnombre.pdb

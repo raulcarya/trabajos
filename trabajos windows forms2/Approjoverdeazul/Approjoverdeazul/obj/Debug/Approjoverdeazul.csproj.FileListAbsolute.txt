@@ -1,0 +1,8 @@
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Approjoverdeazul\Approjoverdeazul\bin\Debug\Approjoverdeazul.exe.config
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Approjoverdeazul\Approjoverdeazul\bin\Debug\Approjoverdeazul.exe
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Approjoverdeazul\Approjoverdeazul\bin\Debug\Approjoverdeazul.pdb
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Approjoverdeazul\Approjoverdeazul\obj\Debug\Approjoverdeazul.Form1.resources
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Approjoverdeazul\Approjoverdeazul\obj\Debug\Approjoverdeazul.Properties.Resources.resources
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Approjoverdeazul\Approjoverdeazul\obj\Debug\Approjoverdeazul.csproj.GenerateResource.Cache
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Approjoverdeazul\Approjoverdeazul\obj\Debug\Approjoverdeazul.exe
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\Approjoverdeazul\Approjoverdeazul\obj\Debug\Approjoverdeazul.pdb

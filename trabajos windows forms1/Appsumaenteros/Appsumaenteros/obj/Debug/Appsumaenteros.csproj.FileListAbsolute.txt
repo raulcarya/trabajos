@@ -1,0 +1,9 @@
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appsumaenteros\Appsumaenteros\bin\Debug\Appsumaenteros.exe.config
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appsumaenteros\Appsumaenteros\bin\Debug\Appsumaenteros.exe
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appsumaenteros\Appsumaenteros\bin\Debug\Appsumaenteros.pdb
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appsumaenteros\Appsumaenteros\obj\Debug\Appsumaenteros.csprojResolveAssemblyReference.cache
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appsumaenteros\Appsumaenteros\obj\Debug\Appsumaenteros.Form1.resources
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appsumaenteros\Appsumaenteros\obj\Debug\Appsumaenteros.Properties.Resources.resources
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appsumaenteros\Appsumaenteros\obj\Debug\Appsumaenteros.csproj.GenerateResource.Cache
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appsumaenteros\Appsumaenteros\obj\Debug\Appsumaenteros.exe
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Appsumaenteros\Appsumaenteros\obj\Debug\Appsumaenteros.pdb

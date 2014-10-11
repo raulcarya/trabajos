@@ -1,0 +1,4 @@
+C:\Users\LAB104BPC13\Documents\Projects\AppAreayPerimetroCuadrado\AppAreayPerimetroCuadrado\bin\Debug\AppAreayPerimetroCuadrado.exe
+C:\Users\LAB104BPC13\Documents\Projects\AppAreayPerimetroCuadrado\AppAreayPerimetroCuadrado\bin\Debug\AppAreayPerimetroCuadrado.pdb
+C:\Users\LAB104BPC13\Documents\Projects\AppAreayPerimetroCuadrado\AppAreayPerimetroCuadrado\obj\x86\Debug\AppAreayPerimetroCuadrado.exe
+C:\Users\LAB104BPC13\Documents\Projects\AppAreayPerimetroCuadrado\AppAreayPerimetroCuadrado\obj\x86\Debug\AppAreayPerimetroCuadrado.pdb

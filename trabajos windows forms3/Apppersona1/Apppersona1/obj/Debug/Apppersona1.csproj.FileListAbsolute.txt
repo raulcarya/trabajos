@@ -1,0 +1,9 @@
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Apppersona1\Apppersona1\bin\Debug\Apppersona1.exe.config
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Apppersona1\Apppersona1\obj\Debug\Apppersona1.csprojResolveAssemblyReference.cache
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Apppersona1\Apppersona1\obj\Debug\Apppersona1.Form1.resources
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Apppersona1\Apppersona1\obj\Debug\Apppersona1.Properties.Resources.resources
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Apppersona1\Apppersona1\obj\Debug\Apppersona1.csproj.GenerateResource.Cache
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Apppersona1\Apppersona1\bin\Debug\Apppersona1.exe
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Apppersona1\Apppersona1\bin\Debug\Apppersona1.pdb
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Apppersona1\Apppersona1\obj\Debug\Apppersona1.exe
+c:\users\lab104pc6\documents\visual studio 2012\Projects\Apppersona1\Apppersona1\obj\Debug\Apppersona1.pdb

@@ -1,0 +1,5 @@
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\AppRadioButton2\AppRadioButton2\bin\Debug\AppRadioButton2.exe.config
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\AppRadioButton2\AppRadioButton2\obj\Debug\AppRadioButton2.csprojResolveAssemblyReference.cache
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\AppRadioButton2\AppRadioButton2\obj\Debug\AppRadioButton2.Form1.resources
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\AppRadioButton2\AppRadioButton2\obj\Debug\AppRadioButton2.Properties.Resources.resources
+C:\Users\LAB104PC6\Documents\Visual Studio 2012\AppRadioButton2\AppRadioButton2\obj\Debug\AppRadioButton2.csproj.GenerateResource.Cache

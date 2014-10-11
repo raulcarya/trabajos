@@ -1,0 +1,1506 @@
+////////////////////////////////////////////////////////////////////
+SUMA DOS NUMEROS:
+
+
+using System;
+
+namespace AppSumaDosNumeros
+{
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			// declaracio de variables 
+			int numero1, numero2, suma;
+			string linea;
+			Console.WriteLine ("Programa que calcula la suma de 2 numeros");
+			Console.WriteLine ("DIGITE EL NUMERO UNO:");
+			linea = Console.ReadLine ();
+			numero1 = int.Parse (linea);
+			Console.WriteLine ("DIGITE EL NUMERO DOS:");
+			linea = Console.ReadLine ();
+			numero2 = int.Parse (linea);
+			suma = numero1 + numero2;
+			Console.WriteLine ("LA SUMA ES:" + suma);
+			Console.ReadKey ();
+			 
+			 
+		}
+	}
+}
+
+//////////////////////////////////////////////////////////////////
+using System;
+
+namespace AppAreayPerimetroCuadrado
+{
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			float lado, area, perimetro;
+			Console.WriteLine ("Programa que calcula el area y perimetro de un cuadrado");
+			Console.WriteLine ("DIgite el lado:");
+			lado = float.Parse (Console.ReadLine ());
+			area = lado * lado;
+			Console.WriteLine ("El are de un cuadrado:"+area);
+			perimetro = 4 * area;
+			Console.WriteLine ("El perimetro es:" + perimetro);
+			Console.ReadKey();
+		}
+	}
+}
+////////////////////////////////////////////////////////////////
+
+using System;
+
+namespace AppSumayPromedio
+{
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			double num1, num2, num3, num4, suma, promedio;
+			Console.WriteLine (" Programa que suma 4 numeros y saca el promedio");
+			Console.WriteLine ("Digite el numero uno:");
+			num1 = double.Parse (Console.ReadLine());
+			Console.WriteLine ("Digite el numero dos:");
+			num2 = double.Parse (Console.ReadLine());
+			Console.WriteLine ("Digite el numero tres:");
+			num3 = double.Parse (Console.ReadLine());
+			Console.WriteLine ("Digite el numero cuatro:");
+			num4 = double.Parse (Console.ReadLine());
+			suma = num1 + num2 + num3 + num4;
+			promedio = suma / 4;
+			Console.WriteLine ("la suma es:" + suma + "el promedio es:" + promedio);
+			Console.ReadKey();
+
+		}
+	}
+}
+
+
+//////////////////////////////////////////////////////////////
+
+using System;
+
+namespace AppDosNumeros
+{
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			int num1,num2,suma,diferencia,producto,division;
+			Console.WriteLine (" Programa mayor de dos numeros");
+			Console.WriteLine ("lea numero uno:");
+			num1 = int.Parse (Console.ReadLine ());
+			Console.WriteLine ("lea numero dos:");
+			num2 = int.Parse (Console.ReadLine ());
+			if(num1>num2){
+				suma = num1 + num2;
+				diferencia = num1 - num2;
+				Console.WriteLine ("la suma es:"+suma);
+				Console.WriteLine ("la diferencia es:" + diferencia);
+			}
+
+			else
+			{
+				producto = num1 * num2;
+				division = num1 / num2;
+				Console.WriteLine ("el producto es:"+producto);
+				Console.WriteLine ("la division es:" + division);
+			}
+			Console.ReadKey ();
+
+		}
+	}
+}
+//////////////////////////////////////////////////////////////////
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AppNumeroPositivo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            string numero;
+            int num;
+            Console.WriteLine("Programa numero positivo");
+            Console.WriteLine("Digite un numero de 1 a 99:");
+            numero=Console.ReadLine();
+            num = int.Parse(numero);
+            if(numero.Length<=2 && num>0)
+
+
+                {
+
+                    Console.WriteLine("el numero es positivo");
+                if(numero.Length==2)
+
+                    {
+
+                        Console.WriteLine("el numero tiene dos digitos");
+                    }
+
+                else
+                    {
+
+                        Console.WriteLine("el numero tiene un digito");
+                    }
+
+
+                }
+            else
+            {
+
+                Console.WriteLine("el numero esta fuera de rango");
+
+                            }
+            Console.ReadKey();
+
+
+
+
+        }
+    }
+}
+
+
+
+
+
+//////////////////////////////////////////////////////////////////
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Appnotas
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            float nota1, nota2, nota3, promedio;
+            Console.WriteLine("programa promedio 3 notas:");
+            Console.WriteLine("ingrese nota 1 :");
+            nota1 = float.Parse(Console.ReadLine());
+            Console.WriteLine("ingrese nota 2 :");
+            nota2 = float.Parse(Console.ReadLine());
+            Console.WriteLine("ingrese nota 3 :");
+            nota3 = float.Parse(Console.ReadLine());
+            promedio = (nota1 + nota2 + nota3) / 3;
+            if(promedio>=3.5)
+                {
+
+                    Console.WriteLine("es promocionado del diplomado");
+
+                }
+
+            else
+
+                {
+                    Console.WriteLine("No es promocionado del diplomado");
+                }
+
+            Console.ReadKey();
+
+        }
+    }
+}
+
+///////////////////////////////////////////////////////////////////////using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AppSwitch
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            /*ingreasr un numero entre uno y cinco en castellanos
+             *luego mostrar en formato numerico
+             * un valor fuera de rango mostrar mensaje
+             * indicando tal situacion*/
+
+            string numero,num;
+            
+            Console.WriteLine("Programa que pasa de caracter a numero");
+            Console.WriteLine("escriba un numero de 1 a 5 en letras");
+            numero=Console.ReadLine();
+            num=numero.ToUpper();
+            Console.WriteLine(num);
+           
+           
+            
+            
+            switch(num)
+
+                {
+
+                case"UNO":
+
+                    Console.WriteLine("1");
+                    break;
+
+                case"DOS":
+
+                    Console.WriteLine("2");
+                    break;
+
+
+                case"TRES":
+
+                    Console.WriteLine("3");
+                    break;
+
+
+                case"CUATRO":
+
+                    Console.WriteLine("4");
+                    break;
+
+                case"CINCO":
+
+                    Console.WriteLine("5");
+                    break;
+
+
+                default:
+
+                    Console.WriteLine("numero fuera de rango");
+            break;
+
+                
+
+
+        }
+
+        Console.ReadKey();
+                    }
+
+    }
+
+}
+
+
+//////////////////////////////////////////////////////////////
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AppSwitchnumletra
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string numero, num;
+
+            Console.WriteLine("Programa que pasa de nummero a caracter");
+            Console.WriteLine("escriba un numero de 1 a 5 ");
+            numero = Console.ReadLine();
+            num = numero.ToLower();
+             
+
+
+
+            switch (num)
+            {
+
+                case "1":
+
+                    Console.WriteLine("UNO");
+                    break;
+
+                case "2":
+
+                    Console.WriteLine("DOS");
+                    break;
+
+
+                case "3":
+
+                    Console.WriteLine("TRES");
+                    break;
+
+
+                case "4":
+
+                    Console.WriteLine("CUATRO");
+                    break;
+
+                case "5":
+
+                    Console.WriteLine("CINCO");
+                    break;
+
+
+                default:
+
+                    Console.WriteLine("numero fuera de rango");
+                    break;
+
+
+
+
+            }
+
+            Console.ReadKey();
+
+
+        }
+    }
+}
+
+
+https://github.com/raulcarya/visualnet
+
+
+
+///////////////////////////////////////////////////////////////////////////
+
+
+
+ using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AppWhile
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int piezas,contador=1;
+            float longitud;
+            Console.WriteLine("Programa fabrica de perfiles");
+            Console.WriteLine("Lea numero de piezas: ");
+            piezas= int.Parse(Console.ReadLine());
+            while (contador <= piezas)
+
+            {
+
+                Console.WriteLine("Lea longitud: ");
+                longitud = float.Parse(Console.ReadLine());
+                if (longitud >= 1.20 && longitud <= 1.30)
+
+                {
+                    Console.WriteLine("la pieza " + longitud + "es apta");
+                    contador++;
+                }
+
+                else
+                {
+                    Console.WriteLine("la pieza " + longitud + "no es apta");
+                    contador++;
+                }
+                 
+
+            
+            }
+
+            Console.ReadKey();
+
+
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Appwhile2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            int valor, contador= 1;
+            Console.WriteLine("programa valor ingresado");
+            Console.WriteLine("digite valor:");
+            valor=int.Parse(Console.ReadLine());
+            while(contador<= valor)
+
+            {
+                Console.WriteLine(contador);
+                contador++;
+            }
+            Console.ReadKey();
+
+
+
+
+        }
+    }
+}
+//////////////////////////////////////////////////////////////////////////////////////////
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Appsumapromedio10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            int x, num1, suma;
+            float promedio;
+            string linea;
+            x = 1;
+            suma = 0;
+
+            while (x <= 10)
+            {
+                Console.Write("Ingrese un un numero");
+                linea = Console.ReadLine();
+                num1 = int.Parse(linea);
+                suma = suma + num1;
+                x = x + 1;
+            }
+            promedio = suma / 10;
+            Console.Write("La suma de los numeros ingresados es:");
+            Console.WriteLine(suma);
+            Console.Write("El promedio de los numeros ingresados es: ");
+            Console.WriteLine(promedio);
+            Console.ReadKey();
+
+
+
+        }
+    }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Appnvaloressumaprom
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int valor,numero,suma=0,promedio,contador=1;
+            Console.WriteLine("programa suma y promedio");
+            Console.WriteLine("digite la cantidad de numeros a sumar:");
+             valor=int.Parse(Console.ReadLine());
+                while(contador<=valor)
+                {
+                   Console.WriteLine("digite numero:");
+                    numero=int.Parse(Console.ReadLine());
+                    suma = suma + numero;
+                    contador++;
+                
+                }
+
+                promedio = suma/ valor;
+                Console.WriteLine("la suma es :"+ suma);
+                Console.WriteLine("el promedio es :" + promedio);
+                Console.ReadKey();
+
+        }
+
+
+
+
+
+
+    }
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////|
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Appnotas
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int cont1, cont2=0, cont3=0,valor=0;
+            float nota;
+            Console.WriteLine("programa notas");
+            Console.WriteLine("digite el numero de notas:");
+            valor=int.Parse(Console.ReadLine());
+            for (cont1 =1; cont1 <= valor; cont1++)
+
+            {
+            
+                
+            Console.WriteLine("digitar nota");
+            nota=float.Parse(Console.ReadLine());
+            Console.WriteLine("la nota  "+cont1+" es :"+nota);
+
+            if (nota >= 3)
+            {
+                cont2 =cont2 + 1;
+            }
+            else 
+            
+            {
+                cont3 =cont3 + 1;
+            }
+            }
+
+            Console.WriteLine("digitar notas mayores de 3 son:"+cont2);
+            Console.WriteLine("digitar notas menores de 3 son:" +cont3);
+            Console.ReadKey();
+
+        }
+
+
+        
+
+
+
+    }
+}
+///////////////////////////////////////////////////////////////////////////////
+
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Appnumenteros
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int cont1=0,cont2=0,valor=0;
+             
+            Console.WriteLine("programa numeros enteros mayor o igual a 1000");
+            Console.WriteLine("ingrese la cantidad de numeros:");
+            valor=int.Parse(Console.ReadLine());
+            for (cont1=1; cont1<= valor; cont1++)
+
+            {
+            
+                
+            Console.WriteLine("digitar valor:");
+            valor=int.Parse(Console.ReadLine());
+            Console.WriteLine("el numero digitado   "+cont1+" es:"+valor);
+
+            if (valor>=1000)
+            {
+                cont2 =cont2 + 1;
+            }
+
+
+            
+            }
+
+            Console.WriteLine("los numeros mayores a 1000 son:"+cont2);
+           
+            Console.ReadKey();
+
+        }
+
+
+
+
+        }
+    }
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Appdowhile
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            int suma=0, valor;
+            Console.WriteLine(" programa que suma valores");
+            do
+            {
+
+                Console.WriteLine("digite el valor");
+                valor = int.Parse(Console.ReadLine());
+                 
+                if (valor == 9999)
+                {
+                    break;
+                }
+
+                else 
+                
+                
+                {
+                    suma = suma + valor;
+                }
+
+            }
+            while (valor != 9999);
+            Console.WriteLine("el valor acumulado es"+suma);
+           
+
+            if (suma == 0)
+
+            {
+                Console.WriteLine("el valor acomulado es igual a 0");
+            
+            }
+
+            else if(suma > 0)
+            {
+                Console.WriteLine("el valor es mayor 0");
+
+            }
+
+            else 
+            {
+                Console.WriteLine("el valor es menor 0");
+
+            }
+
+            Console.ReadKey();
+
+
+
+        }
+
+
+
+    }
+}
+///////////////////////////////////////////////////////////////////////////////////
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Appforeach
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] vector;
+            Console.WriteLine("prograa vector 100");
+            Console.WriteLine("digitar el tamaño del vector");
+
+            int tamano,contador,contador3=0;
+            tamano = int.Parse(Console.ReadLine());
+            vector = new int[tamano];
+            for (contador = 0; contador <= tamano - 1; contador++)
+            {
+                Console.WriteLine("digite numero");
+                vector[contador]=int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("el vector es:");
+             foreach(int contador2 in vector)
+
+             {  
+             Console.WriteLine(contador2);
+             if (contador2 > 100)
+             {
+                 contador3 = contador3 + 1;    
+             }
+
+             }
+
+
+
+             Console.WriteLine("los numeros mayores de 100 son:"+contador3);
+             Console.ReadKey();
+
+            }
+     
+        
+        
+
+
+    }
+}
+///////////////////////////////////////////////////////////////////////////////////
+
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Appsumaenteros
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSumar_Click(object sender, EventArgs e)
+        {
+            int numero1, numero2, suma;
+            numero1 = int.Parse(txtNumero1.Text);
+            numero2 = int.Parse(txtNumero2.Text);
+
+            suma = numero1 + numero2;
+            lblResultado.Text = "Resultado:"+suma.ToString();
+
+
+        }
+
+
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Appcheckbox
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            string texto=" ";
+            if (chkIngles.Checked == true)
+
+            {
+                texto = texto + "Ingles"+ " ";
+            }
+            if (chkFrances.Checked == true)
+            {
+                texto = texto + "Frances" + " ";
+            }
+            if (chkAleman.Checked == true)
+            {
+                texto = texto + "Aleman" + " ";
+            }
+
+            Text = texto;
+
+
+        }
+    }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Appnavegadores
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btn_Click(object sender, EventArgs e)
+        {
+            string texto = " ";
+            if (chkChrome.Checked == true)
+            {
+                texto = texto + "Chrome" + " ";
+            }
+            if (chkOpera.Checked == true)
+            {
+                texto = texto + "Opera" + " ";
+            }
+            if (chkExplorer.Checked == true)
+            {
+                texto = texto + "Explorer" + " ";
+            }
+
+            Text = texto;
+
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace AppRadiobutton
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Click(object sender, EventArgs e)
+        {
+
+            if (rdOption1.Checked == true)
+            {
+
+                Width = 640;
+                Height = 480;
+
+
+            }
+
+            else if (rdOption2.Checked == true)
+
+
+            {
+
+                Width = 800;
+                Height = 600;
+
+
+            }
+
+            else if (rdOption3.Checked == true)
+
+            {
+
+                Width = 1024;
+                Height = 768;
+
+            }
+
+
+
+
+
+        }
+    }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace AppRadioButton2
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btnmostrar_Click(object sender, EventArgs e)
+        {
+
+            int numero1, numero2, suma, resta;
+            numero1 = int.Parse(numero1.Text);
+            numero2 = int.Parse(numero2.Text);
+
+            if (rdsuma.AutoCheked == true)
+
+            {
+                suma = numero1 + numero2;
+                resultado.Text = suma.ToString();
+            }
+
+            else if (rdresta.AutoChecked == true)
+
+            {
+
+                resta = numero1 - numero2;
+                resultado.Text = resta.ToString();
+
+            }
+
+
+        }
+    }
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace AppCombobox
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void cmbcolor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            Text = cmbcolor.Text;
+
+        }
+    }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Approjoverdeazul
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+            for (int ch = 0; ch <= 255; ch++)
+            {
+
+                cmbrojo.Items.Add(ch);
+                cmbverde.Items.Add(ch);
+                cmbazul.Items.Add(ch);
+            }
+
+            cmbrojo.SelectedIndex = 0;
+            cmbverde.SelectedIndex = 0;
+            cmbazul.SelectedIndex = 0;
+
+
+        }
+
+        private void btnactualizar_Click(object sender, EventArgs e)
+        {
+
+            int rojo, verde, azul;
+            rojo = int.Parse(cmbrojo.Text);
+            verde = int.Parse(cmbverde.Text);
+            azul = int.Parse(cmbazul.Text);
+            BackColor = Color.FromArgb(rojo,verde,azul);
+        }
+    }
+}
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Appedadnombre
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+        DialogResult dialogResult = MessageBox.Show("seguro", "confirmacion", MessageBoxButtons.YesNo); 
+        if(dialogResult == DialogResult.Yes)
+         {
+             label1.Text = "";
+             label2.Text = "";
+             label3.Text = "";
+        
+         } 
+        
+        else if (dialogResult == DialogResult.No) 
+        
+        {
+        }
+
+        }
+    }
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+clase
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Apppersona1
+{
+    class Persona
+    {
+        //declarar atributos
+        string nombre;
+        int edad;
+
+        //constructor vacio
+        public Persona()
+        {
+        
+        }
+
+        //constructor con parametros
+        public Persona(string nombre,int edad)
+        {
+            this.nombre = nombre;
+            this.edad = edad;
+        }
+
+        // metodos get y set
+        public string Nombre
+
+        {
+            get 
+            { 
+                return nombre; 
+            }
+
+            set
+            {
+                nombre = value;
+            }
+        }
+        public int Edad
+        {
+            get
+            {
+                return edad;
+            }
+
+            set
+            {
+                edad= value;
+            }
+        }
+
+        // metodos transaciones
+
+
+
+
+
+    }
+}
+
+boton
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Apppersona1
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //crear el objeto persona
+            Persona persona1 = new Persona(textBox1.Text,
+                int.Parse(textBox2.Text));
+
+            if (persona1.Edad >= 18)
+            {
+                MessageBox.Show("  la edad de  " + persona1.Nombre + " es: "
+                    + persona1.Edad + "  mayor de 18");
+            }
+            
+            else
+            {
+                MessageBox.Show(" la edad de  " + persona1.Nombre + " es: "
+                       + persona1.Edad + " menor de 18");
+            }
+
+
+
+
+
+
+
+
+
+        }
+    }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+clase
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AppNumero
+{
+    class Numero
+    {
+
+        //atributos
+
+        int numeromayor;
+        int numeromenor;
+
+        //constructor con parametros
+
+        public Numero(int numeromenor, int numeromayor)
+
+        {
+
+            this.numeromenor = numeromenor;
+            this.numeromayor = numeromayor;
+        }
+
+
+        //metodo get y set
+
+        public int Numeromenor
+
+        {
+            get
+            {
+                return numeromenor;
+
+            }
+
+            set 
+            {
+                numeromenor = value;
+            }
+
+        }
+
+        public int Numeromayor
+        {
+            get
+            {
+                return numeromayor;
+
+            }
+
+            set
+            {
+                numeromayor = value;
+            }
+
+        }
+
+
+        //metodo transacional = operaciones
+
+        public List<int> MostrarRango()
+        {
+            List<int> rango = new List<int>();
+            for (int contador = numeromenor; contador <= numeromayor; contador++)
+
+            {
+                rango.Add(contador);
+            }
+            return rango;
+       }
+    }
+}
+
+
+boton
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace AppNumero
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //instanciar objetos numero
+            Numero numero1 = new Numero(int.Parse(textBox1.Text),int.Parse(textBox2.Text));
+
+            List<int> rangoNumeros=new List<int>();
+            rangoNumeros=numero1.MostrarRango();
+            
+            //llenar vector
+            foreach(int contador2 in rangoNumeros) 
+            
+            {
+                richTextBox1.Text = richTextBox1.Text + "  " + contador2.ToString();
+            }
+
+        }
+    }
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+web
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class _Default : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+    protected void Factorial_Click(object sender, EventArgs e)
+    {
+        int factorial=1, numero;
+        numero = int.Parse(TextBox1.Text);
+        for (int contador = 1; contador <= numero; contador++)
+        {
+            factorial = factorial * contador;
+        }
+
+        label2.Text = "Resultado:" + factorial.ToString();
+
+
+
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+body 
+{
+   background:#0026ff;
+   color:#fff;
+   font-family:Tahoma;
+   font-size:16px;
+}
+----
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+/// <summary>
+/// Descripción breve de Polla
+/// </summary>
+public class Polla
+{
+
+    string equipo;
+    int marcador;
+
+	 
+	
+		 
+        public Polla(string equipo, int marcador)
+        {
+          this.equipo=equipo;
+          this.marcador=marcador;
+
+        }
+
+    //metodos get y set
+
+        public string Equipo 
+        {
+            get { return equipo; }
+            set{equipo=value;}
+        }
+
+
+         public int Marcador
+        {
+            get { return marcador; }
+            set{marcador=value;}
+        }
+
+
+    // metodo transaccion
+     
+
+
+	}
+
+
+----
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class _Default : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        string equipo1, equipo2;
+        int marcador1,marcador2;
+        equipo1 = TextBox1.Text;
+        equipo2 = TextBox2.Text;
+        marcador1 = int.Parse(TextBox3.Text);
+        marcador2 = int.Parse(TextBox4.Text);
+
+        Polla partido1 = new Polla(equipo1, marcador1);
+        Polla partido2 = new Polla(equipo2, marcador2);
+
+        if (partido1.Marcador > partido2.Marcador)
+        {
+            Label5.Text = partido1.Equipo + "gano" + partido1.Marcador;
+        }
+
+
+
+
+    }
+
+
+}
+//////////////////////////////////////////////////////////////////
